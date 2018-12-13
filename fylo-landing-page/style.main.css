@@ -88,3 +88,46 @@
   font-family: 'Raleway';
   background-color: #4fc5d3;
 }
+
+.main {
+  margin-top: 130px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 75px;
+  flex-direction: column;
+}
+
+.info__image--access-anywhere {
+  width: 64px;
+}
+
+.info__image--security {
+  width: 54px;
+}
+
+.info__image--collaboration {
+  width: 70px;
+}
+
+.info__image--any-file {
+  width: 69px;
+}
+
+.info__title {
+  color: #FFFFFF;
+  font-size: 17px;
+  margin-top: 36px;
+  font-family: 'Raleway';
+  letter-spacing: 0.035em;
+}
+
+.info__description {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  padding: 12px 30px;
+  line-height: 1.5em;
+}
