@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./static/fonts/Raleway-Bold.woff2') format('woff2'),
+    url('./static/fonts/Raleway-Bold.woff') format('woff'),
+    url('./static/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./static/fonts/Raleway-Regular.woff2') format('woff2'),
+    url('./static/fonts/Raleway-Regular.woff') format('woff'),
+    url('./static/fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./static/fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('./static/fonts/OpenSans-Regular.woff') format('woff'),
+    url('./static/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./static/fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('./static/fonts/OpenSans-Bold.woff') format('woff'),
+    url('./static/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
