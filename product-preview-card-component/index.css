@@ -1,0 +1,154 @@
+:root {
+  --color-primary: hsl(158, 36%, 37%);
+  --color-primary-dark: hsl(158, 36%, 20%);
+  --color-secondary: hsl(30, 38%, 92%);
+  --color-dark-blue: hsl(212, 21%, 14%);
+  --color-grayish-blue: hsl(228, 12%, 48%);
+  --color-white: hsl(0, 0%, 100%);
+  --font-primary: "Montserrat";
+  --font-secondary: "Fraunces";
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-dark-blue);
+  font-family: var(--font-primary);
+  background-color: var(--color-secondary);
+}
+
+.card {
+  max-width: 600px;
+  margin: 28px 16px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__image--desktop {
+  display: none;
+}
+
+.card__image--mobile {
+  display: block;
+}
+
+.card__body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__category {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.4em;
+  color: var(--color-grayish-blue);
+}
+
+.card__title {
+  font-size: 32px;
+  margin-top: 14px;
+  line-height: 1em;
+  font-family: var(--font-secondary);
+}
+
+.card__description {
+  font-size: 14px;
+  margin-top: 16px;
+  line-height: 1.65em;
+  color: var(--color-grayish-blue);
+}
+
+.card__price {
+  display: flex;
+  font-size: 32px;
+  margin-top: 19px;
+  align-items: center;
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+.card__price--discount {
+  font-size: 13px;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: var(--color-grayish-blue);
+  font-family: var(--font-primary);
+}
+
+.card__button {
+  padding: 14px;
+  display: flex;
+  column-gap: 12px;
+  font-size: 14px;
+  margin-top: 16px;
+  border-radius: 6px;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  transition: background-color ease-in-out 377ms;
+}
+
+.card__button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 0;
+    display: flex;
+  }
+
+  .card__image {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card__image--desktop {
+    display: block;
+  }
+
+  .card__image--mobile {
+    display: none;
+  }
+
+  .card__body {
+    padding: 32px;
+  }
+
+  .card__title {
+    margin-top: 20px;
+  }
+
+  .card__description {
+    margin-top: 24px;
+  }
+
+  .card__price {
+    margin-top: 24px;
+  }
+
+  .card__button {
+    margin-top: auto;
+  }
+}
