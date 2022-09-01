@@ -1,2 +1,0 @@
-# [Fylo Landing Page](https://www.frontendmentor.io/challenges/fylo-landing-page-892264)
-This challenge consists in the build a landing page from the designs provided in the starter code. You can find the start code [here](https://www.frontendmentor.io/challenges/fylo-landing-page-892264).
