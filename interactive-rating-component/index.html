@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="rating-step visible">
+        <div class="rating__star">
+          <img src="./assets/icon-star.svg" />
+        </div>
+        <h1 class="rating__title">How did we do?</h1>
+        <p class="rating__description">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <ul class="rating__list">
+          <li class="rating__list-item">1</li>
+          <li class="rating__list-item">2</li>
+          <li class="rating__list-item">3</li>
+          <li class="rating__list-item">4</li>
+          <li class="rating__list-item">5</li>
+        </ul>
+        <button class="rating__submit">Submit</button>
+      </div>
+      <div class="result-step">
+        <img class="result__image" src="./assets/illustration-thank-you.svg" />
+        <div class="result__label"></div>
+        <h1 class="result__title">Thank you!</h1>
+        <p class="result__description">
+          We appreciate you taking the time to give a rating.
+          If you ever need more support, don't hesitate
+          to get in touch!
+        </p>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
