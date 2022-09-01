@@ -18,14 +18,17 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
   color: var(--color-dark-blue);
   font-family: var(--font-primary);
   background-color: var(--color-secondary);
 }
 
 .card {
+  width: 90%;
+  margin-top: 32px;
   max-width: 600px;
-  margin: 28px 16px;
   border-radius: 10px;
   background-color: var(--color-white);
 }
@@ -115,12 +118,13 @@ body {
   }
 
   .card {
-    margin: 0;
+    margin-top: 0;
     display: flex;
   }
 
   .card__image {
     width: 50%;
+    flex-shrink: 0;
     border-radius: 10px 0 0 10px;
   }
 
